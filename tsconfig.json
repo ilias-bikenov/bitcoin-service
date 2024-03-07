@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "typeRoots": ["./node_modules/@types", "./src/types"],
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "pretty": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "noEmit": false,
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"]
+        }
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules", "tests"]
+}
