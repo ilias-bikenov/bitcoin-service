@@ -8,6 +8,8 @@
 
 `node` version `18.16.1`
 
+### Run locally:
+
 ```
 nvm install 18.16.1
 ```
@@ -28,7 +30,18 @@ Then start the server with
 npm run start
 ```
 
-Tests could be run via
+### Run with Docker
+
+```
+docker build . -t bitcoin-service
+```
+
+```
+docker run --env-file .env -p 3000:3000 bitcoin-service
+
+```
+
+### Run tests with
 
 ```
 npm run test
