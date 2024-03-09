@@ -1,5 +1,3 @@
-export default {
-    currencies: {
-        BITCOIN_USD: 'BTCUSDT',
-    },
+export const currencies = {
+    BITCOIN_USD: 'BTCUSDT',
 };
