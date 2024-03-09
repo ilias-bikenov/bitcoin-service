@@ -1,4 +1,4 @@
-# Binance Service
+# Bitcoin Service
 
 ## This service allows to retrieve current mid Bitcoin price with applied service commission
 
