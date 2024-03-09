@@ -2,6 +2,12 @@
 
 ## This service allows to retrieve current mid Bitcoin price with applied service commission
 
+Service status
+
+`GET /up`
+
+Get current Bitcoin price
+
 `GET /price`
 
 ## Development
